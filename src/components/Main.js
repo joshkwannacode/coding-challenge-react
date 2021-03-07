@@ -3,7 +3,7 @@ import MainTable from './MainTable';
 import {Button,ButtonGroup,Container,Row,Col} from 'react-bootstrap';
 import '../index.css';
 
-export default function ain() {
+export default function Main() {
     let jsonData = require('../MOCK_DATA.json');
     const [filteredData,setFilteredData] = useState(jsonData);
     const [section,setSection] = useState('');
