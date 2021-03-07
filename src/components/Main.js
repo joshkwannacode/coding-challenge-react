@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import MainTable from './MainTable';
 import {Button,ButtonGroup,Container,Row,Col} from 'react-bootstrap';
-import './index.css';
+import '../index.css';
 
 export default function Main() {
     let jsonData = require('../MOCK_DATA.json');
